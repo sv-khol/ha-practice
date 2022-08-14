@@ -1,6 +1,10 @@
+@import "normalize.css";
+
 body {
     color: blue;
     margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-display: swap;
 }
 
 .wrap {
