@@ -5,6 +5,10 @@
     --mid-br: #8D7370;
     --light-br: #CC8B86;
     --pale-br: #E2C4BA;
+    --bg: #EFE6E4;
+    --gap: 20px;
+    --col-5: calc(5 * (100% - var(--gap) *11) / 12 + var(--gap) * 4);
+    --col-7: calc(7 * (100% - var(--gap) *11) / 12 + var(--gap) * 6);
 }
 
 html {
@@ -16,6 +20,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-display: swap;
     font-size: 16px;
+    background-color: var(--bg);
     /* background-image: url(../examp.jpg); */
 }
 
@@ -32,4 +37,17 @@ a {
 ul {
     margin: 0;
     padding: 0;
+}
+
+section {
+    padding: 1px 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+p {
+    font-size: 1.2rem;
+    line-height: 150%;
 }

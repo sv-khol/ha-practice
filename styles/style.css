@@ -43,6 +43,7 @@
 
 .promo-text {
     width: 455px;
+    margin-left: 85px;
 }
 
 .h1 {
@@ -66,4 +67,110 @@
 
 .promo-but {
     display: inline-block;
+}
+
+/*============================*/
+h2 {
+    font-size: 2.7rem;
+    color: var(--brown);
+}
+
+.about {
+    padding-bottom: 20px;
+}
+
+.about-h {
+    text-align: center;
+}
+
+.about-block {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.about-text {
+    width: 530px;
+    color: var(--brown);
+}
+
+.about-text p {
+    font-size: 1.2rem;
+    line-height: 150%;
+}
+
+/*==============statistic=====*/
+.statistic {
+    background-color: var(--mid-br);
+    color: white;
+    padding: 85px 0;
+}
+
+.statistic ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.statistic li {
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 60px;
+    text-align: center;
+}
+
+.statistic p {
+    font-size: 50px;
+    font-weight: 400;
+    margin: 0;
+}
+
+/*===============================*/
+.works {}
+
+.work-item {
+    display: flex;
+    flex-wrap: wrap;
+
+    gap: 20px;
+}
+
+.work-descr {
+    position: relative;
+    background-image: url(../img/ap-10.jpg);
+    background-repeat: no-repeat;
+    color: white;
+    padding: 85px 35px;
+}
+
+.work-descr * {
+    position: relative;
+    z-index: 2;
+}
+
+.work-descr::after {
+    content: '';
+    background: rgba(100, 72, 69, 0.8);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.size1 {
+    width: var(--col-5);
+    height: 450px;
+}
+
+.size2 {
+    width: var(--col-7);
+    height: 450px;
+}
+
+h3 {
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
 }
