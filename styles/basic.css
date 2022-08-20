@@ -1,19 +1,35 @@
 @import "normalize.css";
 
+:root {
+    --brown: #533738;
+    --mid-br: #8D7370;
+    --light-br: #CC8B86;
+    --pale-br: #E2C4BA;
+}
+
+html {
+    font-size: 16px;
+}
+
 body {
-    color: blue;
     margin: 0;
     font-family: 'Montserrat', sans-serif;
     font-display: swap;
+    font-size: 16px;
+    /* background-image: url(../examp.jpg); */
 }
 
 .wrap {
-    max-width: 1400px;
+    min-width: 1200px;
     width: 80%;
     margin: 0 auto;
 }
 
-.logo {
-    width: 50px;
-    height: 40px;
+a {
+    text-decoration: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
 }

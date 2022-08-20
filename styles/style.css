@@ -1,0 +1,69 @@
+@import "basic.css";
+
+.top-line {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 35px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo span {
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+.main-menu ul {
+    display: flex;
+    gap: 25px;
+    list-style-type: none;
+}
+
+.main-menu a {
+    color: var(--brown);
+    font-size: 16px;
+}
+
+.tel {
+    font-size: 1rem;
+    color: var(--brown);
+}
+
+/*====promo=========*/
+.promo {
+    background: url(/img/header-bg.jpg) no-repeat;
+    padding-top: 150px;
+    margin-top: -60px;
+    padding-bottom: 170px;
+}
+
+.promo-text {
+    width: 455px;
+}
+
+.h1 {
+    font-size: 50px;
+    color: var(--brown);
+    margin-bottom: 24px;
+}
+
+.promo-p {
+    font-size: 1.2rem;
+    line-height: 150%;
+    margin-bottom: 20px;
+}
+
+.but {
+    padding: 25px 65px;
+    background-color: var(--light-br);
+    color: var(--brown);
+    font-size: 1.5rem;
+}
+
+.promo-but {
+    display: inline-block;
+}
