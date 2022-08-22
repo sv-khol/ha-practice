@@ -24,13 +24,13 @@
 }
 
 .main-menu a {
-    color: var(--brown);
+    color: inherit;
     font-size: 16px;
 }
 
 .tel {
     font-size: 1rem;
-    color: var(--brown);
+    color: inherit;
 }
 
 /*====promo=========*/
@@ -49,7 +49,6 @@
 
 .h1 {
     font-size: 50px;
-    color: var(--brown);
     margin-bottom: 24px;
 }
 
@@ -81,7 +80,6 @@
 
 .about-text {
     width: 530px;
-    color: var(--brown);
 }
 
 .about-text p {
@@ -181,13 +179,12 @@ h3 {
     background: none;
     display: block;
     margin: 40px auto;
-    color: var(--brown);
+    color: inherit;
 }
 
 /*==================stuff=====*/
 .stuff {
     background-color: var(--pale-br);
-    color: var(--brown);
     font-size: 18px;
     padding-bottom: 50px;
 }
@@ -209,7 +206,6 @@ h3 {
 /*==================how=====*/
 .how {
     background-color: var(--pale-br);
-    color: var(--brown);
     font-size: 18px;
     padding-bottom: 80px;
 }
@@ -302,7 +298,7 @@ input[type="text"] {
     padding-bottom: 10px;
     outline: none;
     color: white;
-    margin: calc(var(--gap) * 2) 0;
+    margin: var(--gap) 0;
 }
 
 input[type="text"]::-webkit-input-placeholder {
@@ -315,6 +311,10 @@ input[type="text"]::-moz-placeholder {
 
 input[type="text"]::placeholder {
     color: white;
+}
+
+.req_map {
+    margin: -1px 0 -5px;
 }
 
 /*====================footer===========*/
