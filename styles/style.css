@@ -36,6 +36,7 @@
 /*====promo=========*/
 .promo {
     background: url(/img/header-bg.jpg) no-repeat;
+    background-size: cover;
     padding-top: 150px;
     margin-top: -60px;
     padding-bottom: 170px;
@@ -58,22 +59,11 @@
     margin-bottom: 20px;
 }
 
-.but {
-    padding: 25px 65px;
-    background-color: var(--light-br);
-    color: var(--brown);
-    font-size: 1.5rem;
-}
-
 .promo-but {
     display: inline-block;
 }
 
 /*============================*/
-h2 {
-    font-size: 2.7rem;
-    color: var(--brown);
-}
 
 .about {
     padding-bottom: 20px;
@@ -129,10 +119,14 @@ h2 {
 /*===============================*/
 .works {}
 
+.work-item img {
+    width: 100%;
+}
+
 .work-item {
     display: flex;
     flex-wrap: wrap;
-
+    justify-content: center;
     gap: 20px;
 }
 
@@ -140,8 +134,13 @@ h2 {
     position: relative;
     background-image: url(../img/ap-10.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
     color: white;
     padding: 85px 35px;
+}
+
+.work-ph {
+    overflow: hidden;
 }
 
 .work-descr * {
@@ -173,4 +172,158 @@ h3 {
     font-size: 30px;
     font-weight: 500;
     text-align: center;
+}
+
+.more {
+    border: none;
+    outline: none;
+    font-size: 30px;
+    background: none;
+    display: block;
+    margin: 40px auto;
+    color: var(--brown);
+}
+
+/*==================stuff=====*/
+.stuff {
+    background-color: var(--pale-br);
+    color: var(--brown);
+    font-size: 18px;
+    padding-bottom: 50px;
+}
+
+.stuff h2 {
+    text-align: center;
+}
+
+.members {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+
+.member {
+    width: 320px;
+}
+
+/*==================how=====*/
+.how {
+    background-color: var(--pale-br);
+    color: var(--brown);
+    font-size: 18px;
+    padding-bottom: 80px;
+}
+
+.how h2 {
+    text-align: center;
+}
+
+.preferences {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.pref {
+    width: var(--col-3);
+    text-align: center;
+}
+
+.number {
+    background-color: var(--mid-br);
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+    margin: 0 auto;
+
+}
+
+/*============feedback==========*/
+.feedback {
+    padding-bottom: 70px;
+}
+
+.feedback h2 {
+    text-align: center;
+}
+
+.gallery {
+    width: var(--col-10);
+    margin: 0 auto;
+    display: flex;
+    gap: var(--gap);
+    align-items: center;
+}
+
+.fb {
+    display: flex;
+    gap: var(--gap);
+}
+
+.fb_text {
+    width: 300px;
+}
+
+.fb_photos {
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap);
+}
+
+.next {
+    transform: rotate(180deg);
+}
+
+/*============request===========*/
+
+#request {
+    background-color: var(--mid-br);
+    color: white;
+}
+
+#request h2 {
+    color: white;
+}
+
+.row {
+    display: flex;
+    gap: var(--gap);
+}
+
+.req-form {
+    padding-left: var(--col-1);
+}
+
+input[type="text"] {
+    width: 100%;
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    padding-bottom: 10px;
+    outline: none;
+    color: white;
+    margin: calc(var(--gap) * 2) 0;
+}
+
+input[type="text"]::-webkit-input-placeholder {
+    color: white;
+}
+
+input[type="text"]::-moz-placeholder {
+    color: white;
+}
+
+input[type="text"]::placeholder {
+    color: white;
+}
+
+/*====================footer===========*/
+.page-footer {
+    padding: 30px 0;
+}
+
+.row-foot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
